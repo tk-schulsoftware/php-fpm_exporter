@@ -15,7 +15,9 @@ changelog:
   filters:
     exclude:
       - '^docs:'
-      - '^chore:'
 
 archives:
-  - format: binary
+  - id: default
+    format: binary
+  - id: targz
+    format: tar.gz
